@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Color del texto */
+}
+
+.game-section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.game-section h2 {
+    background-color: #962c22;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0;
+    font-size: 1.5rem;
+    border-radius: 10px 10px 0 0;
+    text-align: center; /* Centra el título horizontalmente */
+}
+
+.game-section .content {
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.game-section .image,
+.game-section .description {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left; /* Ajusta el texto a la izquierda */
+}
+
+.game-section .image {
+    padding: 20px;
+}
+
+/* Estilos para las imágenes de los juegos */
+.game-section .image img {
+    width: 100%; /* Ancho del 100% del contenedor padre */
+    max-width: 100%; /* Ancho máximo del 100% para evitar desbordamientos */
+    height: auto; /* Esto permite que la altura se ajuste automáticamente */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el texto */
+.game-section .description {
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.6; /* Ajusta el espaciado entre líneas para una mejor legibilidad */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.game-section .description p {
+    margin-bottom: 20px;
+}
+
+/* Estilos para el contenedor del texto */
+.game-section .text-container {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Estilos para el título */
+.game-section h2 {
+    background-color: #962c22;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0;
+    font-size: 1.5rem;
+    border-radius: 10px 10px 0 0;
+    text-align: center; /* Centra el título horizontalmente */
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #6b1911;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
